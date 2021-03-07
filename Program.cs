@@ -1,5 +1,6 @@
 ﻿using ProyectoArbolesBinarios.Clases.ArbolBinario;
 using ProyectoArbolesBinarios.Clases.JuegoAdivina;
+using ProjectArbolBinario.Clases.Modelo;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -111,6 +112,9 @@ namespace ProyectoArbolesBinarios
             //arbolBasico();
 
             juegoAdivina();
+            ConexionMongoDB.conexionDB();
+
+       
         }
     }
 }

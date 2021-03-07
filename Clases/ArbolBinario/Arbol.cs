@@ -20,7 +20,7 @@ namespace ProyectoArbolesBinarios.Clases.ArbolBinario
             this.raiz = valorRaiz;
         }
 
-        public Nodo rizArbol()
+        public Nodo raizArbol()
         {
             return raiz;
         }

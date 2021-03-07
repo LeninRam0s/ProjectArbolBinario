@@ -6,12 +6,18 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace ProjectArbolBinario.Clases.Modelo
 {
-    class MdoelData
+    class ModelData
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public int id { get; set; }
+        //[BsonId]
+        //[BsonRepresentation(BsonType.ObjectId)]
+        //public string Id { get; set; }
 
+        //[BsonId]
+        //[BsonRepresentation(BsonType.String)]
+        //public string Id { get; set; }
+
+        [BsonId]
+        [BsonRepresentation(BsonType.String)]
         [BsonElement("animal")]//HACE REFERENCIA CON LOS ENCABEZADOS A BD
         public string animal { get; set; }
 
